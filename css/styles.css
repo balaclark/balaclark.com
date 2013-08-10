@@ -1,4 +1,33 @@
 
+body {
+  background-color: #FFFBDD;
+}
+
+.container {
+  border-radius: 3px;
+  box-shadow: 0 0 8px #E9E3B4;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 660px;
+  background-color: white;
+}
+
+@media screen and (max-width: 660px) {
+  .container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  /*background-color: rgba(221, 226, 255, 0.58)*/
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .icon {
   margin-right: 0.2em;
 }
@@ -44,11 +73,11 @@ section > ul > li {
 }
 
 .js {
-  background-color: #f15501; 
+  background-color: #f15501;
 }
 
 .php {
-  background-color: #6e03c1; 
+  background-color: #6e03c1;
 }
 
 .css {
