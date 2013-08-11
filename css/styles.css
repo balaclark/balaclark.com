@@ -79,7 +79,7 @@ section > ul > li {
   margin-bottom: 1.5em;
 }
 
-.projects > ul > li {
+.projects > ul > li:last-child {
   margin-bottom: 0;
 }
 
