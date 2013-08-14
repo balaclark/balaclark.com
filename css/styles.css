@@ -83,10 +83,19 @@ section > ul > li {
   margin-bottom: 0;
 }
 
-.tags {
-  display: inline-block;
-  margin-left: 1em;
-  float: right;
+@media screen and (max-width: 660px) {
+  .tech {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .tags {
+    display: inline-block;
+    margin-left: 1em;
+    float: right;
+  }
 }
 
 .js {
